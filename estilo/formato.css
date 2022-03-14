@@ -1,0 +1,581 @@
+/* Codigo CSS básico */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Inicio Estilo Nav*/
+.encabezado {
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.barraNav {
+
+    height: 100px;
+    width: 500px;
+    display: flex;
+    right: 50px;
+    top: 5px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.inicio { /*No me gusta la idea de tener que hacer una clase por cada página y tampoco se si es correcto, pero no encuentro forma para sacar las lineas de link
+    text-decoration: none; */
+    text-decoration: none; color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; font-weight: 600; letter-spacing: 1px;
+}
+
+.sobreMi {
+    text-decoration: none; color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; font-weight: 600; letter-spacing: 1px;
+}
+
+.proyectos {
+    text-decoration: none; color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; font-weight: 600; letter-spacing: 1px;
+}
+
+.contacto {
+    text-decoration: none; color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; font-weight: 600; letter-spacing: 1px;
+}
+
+.ayuda {
+    text-decoration: none; color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px; font-weight: 600; letter-spacing: 1px;
+}
+
+.encabezado {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    padding: 1rem;
+    position: relative
+}
+
+/*Fin Estilo Nav*/
+
+
+/*Inicio Estilo Body*/
+
+    body{
+	overflow-x: hidden;
+    background-color: #1b1f20;
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium; color: grey
+    }
+
+
+
+    html{
+	font-size: 100%;
+    }
+
+    .titulo {
+        margin-top: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+   }
+
+   .titulo img {
+    height: 500px;
+    width: 400px;
+    margin-right: 30px;
+   }
+
+    .infoSobreMi {
+        width: 300px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sobre_mi {
+        height: 50px;
+        width: 180px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 50px;
+        margin-top: 30px;
+        text-decoration:none;
+        font-weight:600;
+        font-size:10px;
+        letter-spacing: 5px;
+        color:#ffffff;
+        background-image: url(../images/Recurso\ 4.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+  .encabezado {
+       font-size: large;
+       font-weight: 400; color: white;
+       /*font-family: 'Roboto', sans-serif;*/
+   }
+
+   .titulo h3 {
+       font-size:medium; color: #cf1d2a;
+   }
+
+    .titulo h1 {
+       font-size: 250%; font-weight: 700; color: white;
+   }
+
+   .parrafosComunes h3 {
+       font-size: large; color: white;
+   }
+
+   .parrafosComunes {
+       height: 100px;
+       width: 300px;
+       margin-top: 38px;
+       margin-left: 1rem;
+       margin-right: 1rem;
+       margin-bottom: 1rem;
+   }
+
+    p {
+        color: #b0b0b0;
+        font-size: small;
+        padding-top: 10px;
+        padding-bottom: 10px;
+}
+
+    li {
+        list-style-type: none;
+        padding-right: 40px;
+        font-weight:700;
+        font-size: small;
+
+}
+
+.parrafo-Comunes {
+    margin-top: 10px;
+}
+
+    .preguntas {
+        text-align: center;
+        padding-top: 2rem;
+}
+
+    .preguntas h2 {
+        font-size: large; color: white
+}
+
+    .preguntas h3 {
+        font-size: small; color: grey;
+}
+
+    .yo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+
+    .yo h3 {
+        font-size: large; color: white;
+        margin-top: 30px;
+        
+}
+
+.yo p {
+    height: 150px;
+    width: 500px;
+}
+
+.yo h4 {
+    margin-bottom: 10px;
+}
+
+    .contacto {
+        text-align: center;
+        padding-top: 2rem;
+}
+
+    .proyectosDisplay {
+        align-items: center;
+}
+
+    form {
+        padding-top: 10px;
+}
+
+    h4 {
+        padding-top: 10px;
+}
+
+    .masInfo {
+        text-decoration:none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#cf1d2a;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .moreInfo {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    .masInfoRed {
+        text-decoration:none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:white;
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .miCaja{
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px;
+        background-color:#262b2c;
+        display: flex;
+        flex-direction: wrap;
+        align-items: left;
+        justify-content: center;
+}
+
+    .miCaja1 {
+        width: 250px;
+        height: 250px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        background-image: url(../images/Recurso\ 4.png);
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: wrap;
+        align-items: left;
+        justify-content: center;
+}
+
+    .miCaja2 {
+        width: 250px;
+        height: 250px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        background-color:#262b2c;
+        display: flex;
+        flex-direction: wrap;
+        align-items: left;
+        justify-content: center;
+}
+
+    .llamador {
+        width: 780px;
+        height: 180px;
+        margin-top: 15px;
+        margin-left: 15px;
+        background-color: #262b2c;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        margin-bottom: 70px;
+}
+
+    .principales {
+        display:flex;
+        flex-direction: row;
+        margin-top: 70px;
+        justify-content: center;
+        margin-bottom: 20px;
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4,fr);
+
+}
+
+    .botonContacto {
+        margin-left: 50px;
+        text-decoration:none;
+        font-weight:600;
+        font-size:20px;
+        color:#ffffff;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left:40px;
+        padding-right:40px;
+        background-image: url(../images/Recurso\ 4.png);
+        background-repeat: no-repeat;
+}
+
+    .finalPrincipal {
+        width: 400px;
+        padding-top: 05px;
+        padding-left: 10px;
+
+}
+
+.finalPrincipalTexto h2 {
+    font-size: 40px; color: white;
+}
+
+/*Fin Estilo Body*/
+
+/*Footer inicio*/
+
+    .logoFooter {
+        width: 32px;
+        height: 32px;
+        padding-left: 40px;
+        position: relative;
+        align-items: center;
+}
+    .sociales {
+        width: 50px;
+        height: 25px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+}
+
+.instagramIcon {
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.footer {
+
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+    justify-content: space-between;
+ }
+
+ .madeBy {
+     display: flex;
+     flex-direction: row;
+     padding-right: 40px;
+     align-items: center;
+ }
+
+ .madeBy .heart {
+     margin-right: 10px;
+ }
+/*Footer fin*/
+
+
+
+
+
+
+/* Media Querie Tablet*/
+
+@media screen and (max-width: 768px) {
+
+.encabezado {
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+}
+
+
+.principales { /* Las cajas tampoco veo que esten centradas y no se como hacer*/
+
+    flex-direction: column;
+    align-items: center;
+}
+
+.llamador {
+    width: auto;
+    height: fit-content;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.llamador h2 {
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-left: 20px;
+
+}
+
+.llamador p {
+    font-size: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+
+
+.botonContacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    
+}
+
+.titulo { /* No estoy pudiendo centrar el Hola, soy Fiorella" con respecto a la pagina en si y al resto del contenido */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+
+}
+
+.titulo h3 { /* Lo pude solucionar provisioriamente así, si hay una mejor manera, soy toda ojos*/
+   align-self: center;
+   margin-top: 30px;
+}
+
+.miCaja {
+    margin-left: 15px;
+}
+.finalPrincipal {
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+    /* Footer Inicio Responsive*/
+
+    .logoFooter {
+        width: 32px;
+        height: 32px;
+        padding-left: 40px;
+        position: relative;
+        align-items: center;
+}
+    .sociales {
+        width: 50px;
+        height: 25px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+}
+
+.instagramIcon {
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.footer {
+    /* flex-wrap: wrap; */
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content:space-evenly;
+ }
+
+ .madeBy {
+    display: none;
+}
+
+.madeBy .heart {
+    display: none;
+    }
+
+}
+
+.yo p {
+
+    width: fit-content;
+    height: fit-content;
+}
+
+
+
+
+
+
+
+/* Media Querie Celular*/
+
+@media screen and (max-width: 320px) {
+
+
+/* Footer Inicio Responsive*/
+
+    .logoFooter {
+        width: 32px;
+        height: 32px;
+        padding-left: 40px;
+        position: relative;
+        align-items: center;
+}
+    .sociales {
+        width: 50px;
+        height: 25px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+}
+
+.instagramIcon {
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    /* background-color: #262b2c; */
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    justify-content:space-around ;
+ }
+
+ .madeBy {
+    display: none;
+}
+
+.madeBy .heart {
+    display: none;
+}
+
+/* Footer Responsive Fin*/
+}
+
