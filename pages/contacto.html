@@ -21,17 +21,18 @@
 		<!--fin logo-->
 			<!--inicio nav-->
 		<nav>
-			<ul class="barraNav">
-				<li><a href="../index.html">INICIO</a></li>
-				<li><a href="../pages/sobre_mi.html">SOBRE MI</a></li>
-				<li><a href="../pages/proyectos.html">PROYECTOS</a></li>
-				<li><a href="../pages/contacto.html">CONTACTO</a></li>
-				<li><a href="../pages/ayuda.html">AYUDA</a></li>
-			</ul>
+			<div class="barraNav">
+				<div><a class="inicio" href="../index.html">INICIO</a></div>
+				<div><a class="sobreMi" href="../pages/sobre_mi.html">SOBRE MI</a> </div> 
+				<div><a class="proyectos" href="../pages/proyectos.html">PROYECTOS</a> </div>
+				<div><a class="contacto" href="../pages/contacto.html">CONTACTO</a> </div>
+				<div><a class="ayuda" href="../pages/ayuda.html">AYUDA</a> </div>
+			</div>
 		</nav>
 			<!-- fin nav -->
 	</header>
 	<!-- formulario de contacto -->
+	<main>
 		<article class="contacto">
 			<form action="#">
 				<label for="nombre">Nombre:</label>
@@ -61,15 +62,22 @@
 			</form>
 		</article>
 	</section>
+</main>
 	<!-- cierre de form contacto -->
 	<!-- inicio de footer --> 
 	<footer id="RedFox" class="footer">
-		<img src="../images/logo.png" alt="logo" class="logoFooter">
-		<div class="sociales">
-        <img src="../images/icons8-facebook-24.png" alt="Facebook">
-        <img src="../images/icons8-instagram-24.png" alt="Instagram">
-        <img src="../images/icons8-twitter-24.png" alt="Twitter">
+		<!-- <img src="../images/logo.png" alt="logo" class="logoFooter"> -->
+		<!-- <div class="sociales">
+        <img class="facebookIcon" src="../images/icons8-facebook-24.png" alt="Facebook"> 
+        <img class="instagramIcon"  src="../images/icons8-instagram-24.png" alt="Instagram"> 
+       	<img class="twitterIcon"  src="../images/icons8-instagram-24.png" alt="Twitter"> 
+		</div> -->
+
+		<div class="madeBy">
+			<img class="heart" src="../images/1200px-Heart_corazón.svg.webp" alt="Heart" height="10px" width="10px"> 
+			<h5>Copyright © 2022, Red Fox Design</h5>
 		</div>
+	</div>
 	</footer>
 	<!--fin de footer-->
 	<!--Bootstrap Bundle with Popper - JS-->
