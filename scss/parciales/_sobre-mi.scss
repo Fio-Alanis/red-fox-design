@@ -1,0 +1,47 @@
+.yo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.yo {
+
+    width: auto;
+    height: auto;
+}
+
+.yo p {
+    height: 150px;
+    width: 500px;
+}
+
+.yo h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-size: large; color: white;
+    margin-top: 30px;
+}
+
+.yo h4 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.elTextoSM {
+    text-align: justify;
+}
+
+.botonContactoSM {
+    text-decoration:none;
+    font-weight:600;
+    font-size:20px;
+    color:#ffffff;
+    background-image: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-repeat: no-repeat;
+}

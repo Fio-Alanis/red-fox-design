@@ -245,7 +245,7 @@
 }
 
 .diseños {
-    margin-right: 30px;
+    margin-right: 40px;
     text-align: center;
     margin-top: 20px;
     color: #ffffff;
@@ -255,6 +255,14 @@
 
 .diseños h1 {
     font-size: medium;
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.combinado1 {
+    width: 900px;
+    margin: 0 auto;
 }
 
 
@@ -263,14 +271,25 @@
     width: 500px;
 }
 
+.yo h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
 .yo h4 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 50px;
 }
 
+.elTextoSM {
+    text-align: justify;
+}
+
     .contacto {
-        text-align: center;
-        padding-top: 2rem;
+        text-align: left;
+        padding-top: 6rem;
+        width: 500px;
+        margin: 0 auto;
+      
 }
 
     .proyectosDisplay {
@@ -390,6 +409,22 @@
         background-repeat: no-repeat;
 }
 
+.btn {
+        margin-top: 20px;
+        width: 70px;
+        text-decoration:none;
+        font-weight:600;
+        font-size:15px;
+        color:#ffffff;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:10px;
+        padding-right:10px; 
+        background-image: url(../images/Recurso\ 4.png);
+        background-repeat: no-repeat;
+        border: #cf1d2a;
+}
+
 .botonContactoSM {
     text-decoration:none;
     font-weight:600;
@@ -443,6 +478,9 @@
 
 .ayudame {
     margin-top: 30px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
 }
 
 .accordion-button {
