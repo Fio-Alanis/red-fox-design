@@ -1,7 +1,20 @@
+/* VARIABLES*/
+
+$fondo: #1b1f20;
+$degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
+
+/* MIXIN*/
+
+@mixin reset-list {
+    margin: 0;
+	padding: 0;
+    list-style: none;
+}
+
+
 /* Codigo CSS básico */
 *{
-	margin: 0;
-	padding: 0;
+	@include reset-list;
 }
 
 /*Inicio Estilo Nav*/
@@ -12,7 +25,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    // background-image: linear-gradient (to left, red, black);
+
 
 }
 .logo {
@@ -79,7 +92,7 @@
 
     body{
 	overflow-x: hidden;
-    background-color: #1b1f20;
+    background-color: $fondo;
     display: grid;
     grid-template-columns: 100%;
     font-family: 'Roboto', sans-serif;
@@ -99,7 +112,7 @@
   .encabezado {
        font-size: large;
        font-weight: 400; color: white;
-       /*font-family: 'Roboto', sans-serif;*/
+       
    }
 
    .titulo h3 {
@@ -188,7 +201,7 @@
             font-weight:600;
             font-size:20px;
             color:#ffffff;
-            background-image: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
+            background-image: $degradeRojo;
             padding-top:20px;
             padding-bottom:20px;
             padding-left:40px;
@@ -208,7 +221,7 @@
             padding-right:10px; 
             background-repeat: no-repeat;
             border: #cf1d2a;
-            background-image: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
+            background-image: $degradeRojo;
     }
 
     .botonContacto-sobreMi {
@@ -225,12 +238,7 @@
         background-repeat: no-repeat;
     }
 
-    .ayudame {
-        margin-top: 30px;
-        width: 700px;
-        margin: 0 auto;
-        padding-top: 50px;
-    }
+    
 
     /*Fin Estilo Body*/
 
@@ -269,18 +277,13 @@
         width: 90vw;
         display: flex;
         flex-direction: row;
-        /* justify-content: center;  */
-        /* align-items: center;  */
         margin-top: 20px;
-        /* justify-content: space-between; */
+        
     }
 
     .madeBy {
         display: flex;
         flex-direction: row;
-        /*  padding-right: 40px;*/
-        /* align-items: center;
-        margin: 0 auto;  */
         justify-content: center;
     }
 
@@ -306,7 +309,7 @@
     }
 
 
-    .principales { /* Las cajas tampoco veo que esten centradas y no se como hacer*/
+    .principales { 
 
         flex-direction: column;
         align-items: center;
@@ -346,14 +349,14 @@
 
     }
 
-    .titulo { /* No estoy pudiendo centrar el Hola, soy Fiorella" con respecto a la pagina en si y al resto del contenido */
+    .titulo { 
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
 
-    .titulo h3 { /* Lo pude solucionar provisioriamente así, si hay una mejor manera, soy toda ojos*/
+    .titulo h3 { 
     align-self: center;
     margin-top: 30px;
     }
@@ -452,7 +455,6 @@
     .footer {
         width: 100%;
         height: 60px;
-        /* background-color: #262b2c; */
         display: flex;
         flex-direction: row;
         margin: 0 auto;

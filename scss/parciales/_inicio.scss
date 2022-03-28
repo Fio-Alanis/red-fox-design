@@ -31,13 +31,14 @@ margin-right: 30px;
     font-size:10px;
     letter-spacing: 5px;
     color:#ffffff;
-    background-image: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
+    background-image: $degradeRojo;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
+
 
 .masInfo {
     text-decoration:none;
@@ -75,7 +76,7 @@ margin-right: 30px;
     margin-left: 15px;
     margin-bottom: 20px;
     display: flex;
-    background-image: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
+    background-image: $degradeRojo;
     flex-direction: wrap;
     align-items: left;
     justify-content: center;
