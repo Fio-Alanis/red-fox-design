@@ -117,14 +117,10 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
 
    .titulo h3 {
        font-size:medium; color: #cf1d2a;
-   }
 
-    .titulo h1 {
-       font-size: 250%; font-weight: 700; color: white;
-   }
-
-   .parrafosComunes h3 {
-       font-size: large; color: white;
+        h1 {
+            font-size: 250%; font-weight: 700; color: white;
+        }
    }
 
    .parrafosComunes {
@@ -134,6 +130,10 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
        margin-left: 1rem;
        margin-right: 1rem;
        margin-bottom: 1rem;
+
+        h3 {
+            font-size: large; color: white;
+              }
    }
 
     p {
@@ -158,27 +158,19 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
     .preguntas {
             text-align: center;
             padding-top: 2rem;
+
+                h2 {
+                    font-size: large; color: white
+                }
+
+                    h3 {
+                        font-size: small; color: grey;
+                    }
+
+                        h4 {
+                            padding-top: 10px;
+                        }
     }
-
-    .preguntas h2 {
-            font-size: large; color: white
-    }
-
-    .preguntas h3 {
-            font-size: small; color: grey;
-    }
-
-
-
-
-
-
-
-    h4 {
-            padding-top: 10px;
-    }
-
-
 
     .principales {
             display:flex;
