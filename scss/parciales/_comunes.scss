@@ -9,6 +9,7 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
     margin: 0;
 	padding: 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 
@@ -18,35 +19,45 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
 }
 
 /*Inicio Estilo Nav*/
-.encabezado {
-    margin: 0 auto;
+
+
+
+
+ .encabezado {
+     width: 100%;
+  margin: 0 auto;
+   height: 50px;
+     display: flex;
+        justify-content: space-between;
+     align-items: center;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+     }
+
+
+
+.navBar {
+    background-color: #1b1f20;
+    }
+
+  .logo {
+   width: 50px;
+   height: 40px;
+   padding-top: 10px;
+   padding-left: 20px;
+  }
+
+ .barraNav {
+
     height: 50px;
+     width: 500px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-
-
-}
-.logo {
-  width: 50px;
-  height: 40px;
-  padding-top: 10px;
-  padding-left: 20px;
-}
-
-.barraNav {
-
-    height: 50px;
-    width: 500px;
-    display: flex;
-    right: 50px;
-    top: 5px;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
+  right: 50px;
+     top: 5px;
+     position: relative;
+     justify-content: space-between;
+     align-items: center;
     text-decoration: none;
-}
+ }
 
 .inicio { 
     text-decoration: none; color: #ffffff;
@@ -238,13 +249,7 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
 
     /*Footer inicio*/
 
-        /* .logoFooter {
-            width: 32px;
-            height: 32px;
-            padding-left: 40px;
-            position: relative;
-            align-items: center;
-    } */
+
         .sociales {
             width: 50px;
             height: 25px;
@@ -294,6 +299,37 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
 
     @media screen and (max-width: 768px) {
 
+.encabezado {
+    width: 100%;
+}
+
+.ayudame {
+    width: 400px;
+    overflow: visible;
+}
+
+.logo {
+    display: none;
+}
+
+.losDiseños {
+    width: 20%;
+}
+
+.barraNav{
+    align-items: center;
+}
+    .sobre_mi {
+        margin-left: 0;
+    }
+
+    .contenedor {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0% auto;
+        }
+
     .encabezado {
         flex-wrap: wrap;
         height: auto;
@@ -309,7 +345,7 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
 
     .llamador {
         width: auto;
-        height: fit-content;
+        height: auto;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
@@ -318,26 +354,23 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
     }
 
     .llamador h2 {
-        font-size: 100%;
+        font-size: 20%;
         margin-top: 20px;
         margin-left: 20px;
-        margin-left: 20px;
-
     }
 
     .llamador p {
-        font-size: 100%;
+        font-size: 50%;
         margin-top: 20px;
         margin-left: 20px;
-        margin-left: 20px;
     }
-
 
 
     .botonContacto {
         margin-top: 50px;
         margin-bottom: 50px;
-        margin-right: 30px;
+        margin-left: 0%;
+      
 
     }
 
@@ -359,6 +392,15 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
     .finalPrincipal {
         width: fit-content;
         flex-wrap: wrap;
+    }
+
+
+    .titulo {
+        flex-wrap: wrap;
+      }
+      
+    .infoSobreMi {
+        align-items: center;
     }
 
         /* Footer Inicio Responsive*/
@@ -406,10 +448,13 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
         }
 
     }
+   
 
- 
+ /*Sobre Mi*/
 
-
+ .elTextoSM {
+     width: fit-content;
+ }
 
 
 
@@ -466,4 +511,3 @@ $degradeRojo: linear-gradient(to right, rgb(221, 3, 3), rgb(138, 4, 4));
 
     /* Footer Responsive Fin*/
     }
-
